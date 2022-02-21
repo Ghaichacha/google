@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.toil
+{
+    max-width: 100px;
+    max-height: 15px;
+}
+
+header
+{
+    text-align: right;
+        
+}
+.droite{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.droite button{
+    margin-left: 10px;
+    background-color: #4384F1;
+}
+.center
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+
+}
+.root
+{
+    margin-left: 80px;
+}
+
+
+input{
+    width: 400px;
+    height: 30px;
+    background-image: url(image/Capture.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: right;
+    border-radius: 40px;
+}
+.but{
+    margin-top: 16px;
+   font-size:20px;
+ margin-left: 5px;
+}
+.par{
+    margin-left: 40px;
+}
+.googl{
+    width: 350px;
+    margin-left: 40px;
+}
+p{
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+.conteneur{
+display: flex; 
+justify-content: space-between; 
+}
+a{
+    margin: 10px;
+}
+
+.droit{
+    text-align: right;
+    margin-right: 20px;
+    
+}
+footer{
+    position: absolute;
+    bottom: 0;
+   background-color: #F2F2F2;
+  width: 100%;
+ }
+ .gauch
+ {
+     margin-left: 10px;
+     justify-content: space-between;
+ }
+@media screen and (max-width:700px) {
+  input{
+      width: 300px;
+  }  
+
+  .googl{
+    width: 250px;
+    margin-left: 40px;
+} 
+.center{
+    margin-left: 15%;
+}
+.but{
+  
+   font-size:15px;
+ 
+}
+.root
+{
+    margin-left: 60px;
+}
+}
